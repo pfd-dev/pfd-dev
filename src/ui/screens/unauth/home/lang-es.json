@@ -1,0 +1,1235 @@
+{
+  "home": {
+    "welcomeMessage": "¡Hola Mundo!",
+    "introText": "Bienvenidos a mi página web.",
+    "description": {
+      "greeting": "Mi nombre es",
+      "name": "Pablo",
+      "role": ", soy programador especializado en el desarrollo de aplicaciones web y móviles; Creo soluciones utilizando diversas tecnologías y entornos de trabajo.",
+      "commitment": "Ofrezco mis servicios para el desarrollo de cualquier software, trabajo en equipo de forma íntegra y con respeto, compromiso con la seguridad y confidencialidad",
+      "end": "Pasión en cada proyecto."
+    }
+  },
+  "workExperience": {
+    "overview": {
+      "title": "Experiencia Laboral",
+      "subtitle": "Mi colaboración en diversos proyectos ha enriquecido mi experiencia en distintas áreas tecnológicas",
+      "labels": {
+        "workplace": "Lugar de Trabajo",
+        "duration": "Duración",
+        "description": "Descripción del Trabajo",
+        "technologies": "Tecnologías Utilizadas"
+      }
+    },
+    "positions": [
+      {
+        "company": "Vortex-IT",
+        "role": "Desarrollador Frontend de Aplicaciones Web y Móviles",
+        "duration": "2021 - 2023 (2 años)",
+        "employmentType": "Trabajo Remoto",
+        "description": "Desarrollé interfaces de usuario utilizando React Native. Colaboré con diseñadores al integrar prototipos creados en Figma, adquiriendo experiencia en arquitecturas de proyectos escalables y la creación de componentes reutilizables. Implementé funcionalidades de internacionalización (i18n) y gestioné el control de datos mediante Postman, así como la autenticación en bases de datos personales, APIs y tokens. Integré librerías especializadas para el manejo de cámaras, escáneres QR y funciones de geolocalización. Además, desarrollé módulos de carritos de compras y productos en promoción.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "React Native",
+          "Node.js",
+          "MongoDB",
+          "Material UI",
+          "Tailwind CSS",
+          "Figma",
+          "i18n"
+        ]
+      },
+      {
+        "company": "Ministerio de Educación de la Nación Argentina",
+        "role": "Desarrollador de Páginas Web",
+        "duration": "2020 - 2021 (1 año y 6 meses)",
+        "employmentType": "Trabajo Remoto",
+        "description": "Participé como pasante en el Ministerio de Educación de la Nación Argentina, en el desarrollo de un sistema web accesible diseñado para el personal del estado, abarcando usuarios con diversos roles y necesidades específicas. Colaboré con equipos multidisciplinarios para implementar funcionalidades que cumplieran con los estándares de accesibilidad establecidos. Durante este tiempo, adquirí mi primera experiencia en el uso de tecnologías orientadas a arquitecturas robustas y despliegues de la aplicación, junto con prácticas como la documentación y pruebas (testing).",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "C#",
+          "ASP.NET",
+          "SQL Server",
+          "Bootstrap",
+          "jQuery",
+          "GitHub",
+          "GitLab",
+          "Trello"
+        ]
+      },
+      {
+        "company": "Universidad Nacional de Argentina",
+        "role": "Ayudante Estudiantil de Programación",
+        "duration": "2017 - 2021 (4 años)",
+        "employmentType": "Trabajo Remoto",
+        "description": "Colaboré como auxiliar docente (ayudante de cátedra) en la asignatura de Laboratorio de Programación. Esta materia se enfoca en enseñar los fundamentos de la creación de páginas web accesibles y los principios básicos de la programación. Durante mi rol, asistí en la planificación y dictado de clases, la corrección de exámenes (regulares y finales) y la evaluación de proyectos estudiantiles. También participé activamente en concursos académicos, donde se me asignaron diversos grupos de estudiantes para guiarlos en el desarrollo de proyectos prácticos. Este período me permitió fortalecer mis habilidades técnicas y mi capacidad para trabajar en equipo en entornos académicos.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "Bootstrap",
+          "WordPress",
+          "XAMPP",
+          "NVDA"
+        ]
+      }
+    ]
+  },
+  "skillsDev": {
+    "header": {
+      "title": "Conocimientos Técnicos",
+      "subtitle": "conocimientos en diversas tecnologías y herramientas para desarrollar soluciones efectivas."
+    },
+    "tabs": {
+      "lenguages": "Lenguajes",
+      "frameworks": "Frameworks",
+      "libraries": "Librerías"
+    },
+    "techSkills": {
+      "lenguages": [
+        {
+          "title": "HTML",
+          "subtitle": "HyperText Markup Language",
+          "description": "HTML es el lenguaje de marcado estándar utilizado para crear páginas web. Proporciona la estructura básica de un sitio web utilizando etiquetas para organizar contenido, enlaces, formularios y más.",
+          "noStudy": [
+            {
+              "name": "Microdatos y JSON-LD para SEO estructurado",
+              "description": "Integrar microdatos y JSON-LD en HTML para mejorar el SEO estructurado y la visibilidad en motores de búsqueda."
+            },
+            {
+              "name": "Web Components",
+              "description": "Crear componentes reutilizables con Web Components utilizando las etiquetas `<slot>` y `<shadow>`."
+            },
+            {
+              "name": "HTML dinámico",
+              "description": "Trabajar con los elementos `template` y `content` para crear contenido dinámico e interactivo en tu página."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Estructura básica HTML",
+                  "description": "Estructurar una página web con las etiquetas básicas como `<html>`, `<head>`, y `<body>`. Comprender la importancia de los comentarios y las mejores prácticas para mantener un código limpio. Etiquetas fundamentales como `<div>`, `<span>`. Etiquetas de encabezados (`<h1>` a `<h6>`) y párrafos (`<p>`). Etiqueta `<a>` para navegar entre páginas o recursos externos. Insertar imágenes usando la etiqueta `<img>`. Listas ordenadas (`<ol>`) y desordenadas (`<ul>`) entre otras."
+                },
+                {
+                  "name": "Atributos de HTML",
+                  "description": "Atributos en HTML, como `class`, `id`, `style` y otros, para personalizar y dar formato a los elementos."
+                },
+                {
+                  "name": "Semántica HTML5",
+                  "description": "Las etiquetas semánticas de HTML5 como `<header>`, `<footer>`, `<main>`, `<section>`, y `<article>` para mejorar la accesibilidad y el SEO."
+                },
+                {
+                  "name": "Tablas",
+                  "description": "Información en tablas usando las etiquetas `<table>`, `<tr>`, `<th>`, y `<td>`."
+                },
+                {
+                  "name": "Formularios",
+                  "description": "Construir formularios con `<form>`, `<input>`, `<button>` y otros elementos. Validaciones, campos `<select>`, `<textarea>`, y `<datalist>`, tiquetas como `<fieldset>`, `<legend>`, y personalizarlos con JavaScript."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Gestión de atributos globales",
+                  "description": "Utilizar atributos globales como `class`, `id`, `data-*` en múltiples elementos HTML."
+                },
+                {
+                  "name": "Etiquetas meta y SEO básico",
+                  "description": "Metaetiquetas como `<meta>` para mejorar el SEO de tu página web."
+                },
+                {
+                  "name": "Multimedia",
+                  "description": "Agregar contenido multimedia usando las etiquetas `<audio>` y `<video>`."
+                },
+                {
+                  "name": "Accesibilidad en imágenes ",
+                  "description": "Mejorar la accesibilidad utilizando atributos `alt` en imágenes y roles ARIA en diferentes elementos. <picture>` y `<source>` para imágenes responsivas y mejorar la carga en dispositivos móviles."
+                },
+                {
+                  "name": "Uso de `<iframe>`",
+                  "description": "Conoce cómo incrustar contenido externo como mapas, videos o incluso otras páginas con la etiqueta `<iframe>`."
+                }
+              ]
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Etiquetas personalizadas y contenido incrustado",
+                  "description": "Ccontenido incrustado con tecnologías como `<canvas>` y `<svg>`."
+                },
+                {
+                  "name": "Integración con APIs externas",
+                  "description": "APIs externas utilizando la etiqueta `<script>` para cargar y mostrar contenido dinámico."
+                },
+                {
+                  "name": "Accesibilidad avanzada",
+                  "description": "Prácticas de accesibilidad usando atributos como `tabindex`, roles ARIA y otros elementos avanzados."
+                },
+                {
+                  "name": "Buenas prácticas para optimización de rendimiento en HTML",
+                  "description": "Técnicas avanzadas para mejorar el rendimiento de tus páginas web, como la carga diferida de imágenes y el uso de `async` y `defer`. Gestionar los recursos externos con `<link>` y `<preload>` como CSS, fuentes y JavaScript"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CSS",
+          "subtitle": "Cascading Style Sheets",
+          "description": "CSS es el lenguaje utilizado para describir la presentación de un documento escrito en HTML o XML. Controla el diseño, colores, fuentes y disposición de los elementos en una página web.",
+          "noStudy": [
+            {
+              "name": "Preprocesadores CSS",
+              "description": "Explora herramientas como SASS y LESS para escribir CSS más eficiente y modular."
+            },
+            {
+              "name": "CSS Houdini",
+              "description": "Descubre cómo extender las capacidades de CSS con APIs Houdini para crear efectos personalizados y de alto rendimiento."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Selectores y especificidad",
+                  "description": "Selectores básicos de CSS (`elemento`, `.clase`, `#id`) y la especificidad en la aplicación de estilos."
+                },
+                {
+                  "name": "Propiedades de texto y fuentes",
+                  "description": "Propiedades como `color`, `font-size`, `font-family`, `text-align`, y cómo personalizar el texto."
+                },
+                {
+                  "name": "Colores y fondos",
+                  "description": "Trabajar con colores en CSS (`hex`, `rgb`, `hsl`) y a aplicar fondos con la propiedad `background`."
+                },
+                {
+                  "name": "Unidades de medida",
+                  "description": "Diferentes unidades de medida en CSS como `px`, `%`, `em`, `rem`, `vh` y `vw`."
+                },
+                {
+                  "name": "Cajas y bordes",
+                  "description": "Las propiedades `border`, `padding`, y `margin` para estructurar elementos en la página."
+                },
+                {
+                  "name": "Modelo de caja (Box Model)",
+                  "description": "Modelo de caja en CSS y cómo influye en el diseño de los elementos."
+                },
+                {
+                  "name": "Display y visibilidad",
+                  "description": "Propiedades `display` (`block`, `inline`, `none`) y `visibility` para controlar la visualización de elementos."
+                },
+                {
+                  "name": "Posicionamiento básico",
+                  "description": "Posicionar elementos en la página utilizando las propiedades `position`, `top`, `left`, `right`, y `bottom`."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Flexbox",
+                  "description": "Diseños flexibles y responsivos con propiedades como `justify-content`, `align-items` y `flex-wrap`."
+                },
+                {
+                  "name": "Grid Layout",
+                  "description": "Crear diseños complejos de múltiples columnas y filas con propiedades como `grid-template-areas` y `grid-gap`."
+                },
+                {
+                  "name": "Selectores avanzados",
+                  "description": "Selectores avanzados como `nth-child`, `nth-of-type`, `not` y combinadores (`>`, `+`, `~`)."
+                },
+                {
+                  "name": "Pseudo-clases y pseudo-elementos",
+                  "description": "Pseudo-clases (`:hover`, `:focus`) y pseudo-elementos (`::before`, `::after`) para agregar efectos dinámicos."
+                },
+                {
+                  "name": "Animaciones y transiciones",
+                  "description": "Crea animaciones y transiciones suaves con propiedades como `transition`, `@keyframes` y `animation`."
+                },
+                {
+                  "name": "Media Queries",
+                  "description": "Diseños sean responsivos en diferentes dispositivos."
+                },
+                {
+                  "name": "Variables CSS",
+                  "description": "Usar variables CSS (`--variable`) para simplificar y reutilizar estilos."
+                },
+                {
+                  "name": "Clipping y máscaras",
+                  "description": "Recortar elementos con `clip-path` y aplicar máscaras con `mask` para efectos avanzados."
+                },
+                {
+                  "name": "Fuentes web y tipografía avanzada",
+                  "description": "Usar fuentes web con `@font-face` y propiedades avanzadas de tipografía como `line-height` y `letter-spacing`."
+                },
+                {
+                  "name": "Estilización de formularios",
+                  "description": "Personalizar formularios y sus elementos (`input`, `button`, `select`) con estilos avanzados."
+                }
+              ]
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "CSS Grid avanzado",
+                  "description": "Técnicas avanzadas de CSS Grid como subgrillas, posicionamiento explícito e implícito, y el uso combinado con Flexbox."
+                },
+                {
+                  "name": "Metodologías de diseño en CSS",
+                  "description": "Metodologías como BEM (Block Element Modifier) para organizar y mantener estilos escalables."
+                },
+                {
+                  "name": "Accesibilidad con CSS",
+                  "description": "Garantizar que tus estilos sean accesibles para usuarios con discapacidades."
+                },
+                {
+                  "name": "Funciones avanzadas de CSS",
+                  "description": "Utiliza funciones avanzadas como `calc()`, `min()`, `max()` y `clamp()` para mayor control sobre estilos."
+                },
+                {
+                  "name": "Modo oscuro y temas dinámicos",
+                  "description": "Implementar un modo oscuro y temas dinámicos utilizando variables CSS y estrategias modernas."
+                },
+                {
+                  "name": "Optimización de rendimiento en CSS",
+                  "description": "Técnicas para optimizar el rendimiento de CSS como la minimización y el uso de herramientas como PurgeCSS."
+                },
+                {
+                  "name": "Diseño basado en contenedores",
+                  "description": "Diseños basado en contenedores para layouts fluidos con propiedades como `contain` y `container queries`."
+                },
+                {
+                  "name": "CSS para impresión",
+                  "description": "Preparar estilos para impresión con media queries específicas y ajustes de diseño."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "JavaScript",
+          "subtitle": "Lenguaje de programación para la web",
+          "description": "JavaScript es un lenguaje de programación dinámico que permite crear contenido interactivo y dinámico en páginas web.",
+          "noStudy": [
+            {
+              "name": "Manejo avanzado de asincronía",
+              "description": "Trabaja con `Promise.all`, `Promise.race` y operadores avanzados para gestionar múltiples promesas."
+            },
+            {
+              "name": "Creación de bibliotecas y herramientas",
+              "description": "Aprende a construir tu propia biblioteca reutilizable o herramienta con JavaScript."
+            },
+            {
+              "name": "Performance y optimización",
+              "description": "Optimizar el rendimiento de tus aplicaciones JavaScript y evitar bloqueos del hilo principal."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Variables y tipos de datos",
+                  "description": "Declarar variables usando `var`, `let`, y `const`, y trabajar con diferentes tipos de datos (strings, números, booleanos, etc.)."
+                },
+                {
+                  "name": "Operadores básicos",
+                  "description": "Operadores aritméticos, de comparación, lógicos y de asignación."
+                },
+                {
+                  "name": "Condicionales",
+                  "description": "Estructuras condicionales como `if`, `else`, `else if`, y el operador ternario para tomar decisiones."
+                },
+                {
+                  "name": "Ciclos e iteraciones",
+                  "description": "Repetir bloques de código usando bucles como `for`, `while`, y `do while`."
+                },
+                {
+                  "name": "Funciones básicas",
+                  "description": "Definir y utilizar funciones, parámetros y valores de retorno."
+                },
+                {
+                  "name": "Manipulación del DOM básica",
+                  "description": "Interactuar con elementos HTML utilizando `document.getElementById`, `querySelector`, y otros métodos básicos del DOM."
+                },
+                {
+                  "name": "Eventos en JavaScript",
+                  "description": "Manejar eventos como `click`, `mouseover`, y `keydown` en elementos HTML."
+                },
+                {
+                  "name": "Arrays y objetos",
+                  "description": "Almacenar datos en arrays y objetos, y acceder a ellos mediante índices o claves."
+                },
+                {
+                  "name": "Depuración y consola",
+                  "description": "Herramientas de depuración y el uso de `console.log` para inspeccionar datos."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Funciones avanzadas",
+                  "description": "Funciones flecha, funciones anónimas y funciones como argumentos."
+                },
+                {
+                  "name": "Closures y scope",
+                  "description": "Alcance de variables (`scope`) y qué son los closures."
+                },
+                {
+                  "name": "Manipulación avanzada del DOM",
+                  "description": "Métodos como `createElement`, `appendChild`, y `removeChild` para modificar el DOM."
+                },
+                {
+                  "name": "Clases y programación orientada a objetos (POO)",
+                  "description": "Crear y utilizar clases, herencia y métodos en JavaScript."
+                },
+                {
+                  "name": "Manejo de eventos avanzado",
+                  "description": "Usar `addEventListener` y a manejar eventos en bubbling y capturing."
+                },
+                {
+                  "name": "Promesas y manejo de asincronía",
+                  "description": "Manejar operaciones asincrónicas y controlar su flujo con `.then` y `.catch`."
+                },
+                {
+                  "name": "Asincronía",
+                  "description": "Manejo de código asincrónico utilizando `async` y `await`."
+                },
+                {
+                  "name": "Manipulación de datos",
+                  "description": "Métodos de arrays como `map`, `filter`, `reduce`, y `forEach`."
+                },
+                {
+                  "name": "Módulos en JavaScript",
+                  "description": "Dividir el código en módulos y exportar/importar funciones y clases con `import` y `export`."
+                },
+                {
+                  "name": "Errores y excepciones",
+                  "description": "Manejo de errores con `try`, `catch`, y `finally`."
+                }
+              ]
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Contexto y `this`",
+                  "description": "Contexto y cómo usar correctamente `this`."
+                },
+                {
+                  "name": "Eventos personalizados",
+                  "description": "Crear y disparar eventos personalizados en tu aplicación."
+                },
+                {
+                  "name": "Web APIs",
+                  "description": "APIs del navegador como `fetch`, `localStorage`, `sessionStorage`, y la API de geolocalización."
+                },
+                {
+                  "name": "Patrones de diseño",
+                  "description": "Patrones como el Singleton, Factory y Observer."
+                },
+                {
+                  "name": "WebSockets",
+                  "description": "La web en tiempo real. Aplicaciones en tiempo real como chats y notificaciones."
+                },
+                {
+                  "name": "TypeScript y JavaScript moderno",
+                  "description": "Mejorar el flujo de trabajo de desarrollo con JavaScript."
+                },
+                {
+                  "name": "Testing en JavaScript",
+                  "description": "Pruebas unitarias y de integración con frameworks como Jest."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PHP",
+          "subtitle": "Hypertext Preprocessor",
+          "description": "PHP es un lenguaje de programación del lado del servidor diseñado para el desarrollo web, que también puede ser utilizado como lenguaje de propósito general.",
+          "noStudy": [
+            {
+              "name": "Frameworks PHP",
+              "description": "Introducción a frameworks como Laravel, Symfony o CodeIgniter para agilizar el desarrollo."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Aintaxis, variables y tipos de datos",
+                  "description": "Trabajar con la sintaxis básica y diferentes tipos de datos como strings, enteros, y arrays."
+                },
+                {
+                  "name": "Operadores básicos",
+                  "description": "Operadores aritméticos, de comparación, lógicos y de asignación."
+                },
+                {
+                  "name": "Estructuras de control",
+                  "description": "Estructuras condicionales (`if`, `else`, `switch`) y bucles (`for`, `while`, `foreach`)."
+                },
+                {
+                  "name": "Funciones básicas",
+                  "description": "definir funciones, parámetros y devolver valores."
+                },
+                {
+                  "name": "Formularios y entrada de datos",
+                  "description": "Procesar datos enviados desde un formulario HTML con métodos `GET` y `POST`."
+                },
+                {
+                  "name": "Manejo de cadenas",
+                  "description": "Manipular strings como `strlen`, `str_replace`, y `substr`."
+                },
+                {
+                  "name": "Inclusión de archivos",
+                  "description": "Utilizar `include` y `require` para reutilizar código en diferentes archivos PHP."
+                },
+                {
+                  "name": "Depuración básica",
+                  "description": "Uso de `var_dump`, `print_r`, y otras herramientas básicas para depurar código."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Programación orientada a objetos (POO)",
+                  "description": "Clases, objetos, herencia, y encapsulación."
+                },
+                {
+                  "name": "Manejo de sesiones y cookies",
+                  "description": "Mantener el estado de los usuarios."
+                },
+                {
+                  "name": "Manejo de archivos",
+                  "description": "Leer, escribir y manipular archivos en PHP utilizando funciones como `fopen` y `file_put_contents`."
+                },
+                {
+                  "name": "Conexión a bases de datos",
+                  "description": "Uso de MySQL con PHP para realizar operaciones CRUD mediante `PDO` o `MySQLi`."
+                },
+                {
+                  "name": "Validación y sanitización de datos",
+                  "description": "Validar y limpiar datos para protegerse contra ataques como SQL Injection."
+                },
+                {
+                  "name": "Manejo de excepciones",
+                  "description": "Bloques `try-catch` para capturar y manejar errores."
+                },
+                {
+                  "name": "Envío de correos electrónicos",
+                  "description": "Enviar correos electrónicos utilizando la función `mail` y bibliotecas como PHPMailer."
+                },
+                {
+                  "name": "Arrays multidimensionales",
+                  "description": "RTrabajar con arrays más complejos y funciones avanzadas como `array_map` y `array_filter`."
+                },
+                {
+                  "name": "Introducción a APIs",
+                  "description": "consumir APIs externas utilizando bibliotecas HTTP."
+                },
+                {
+                  "name": "Seguridad básica en PHP",
+                  "description": "Proteger la aplicación contra ataques como XSS y CSRF."
+                }
+              ]
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Patrones de diseño en PHP",
+                  "description": "Patrones como Singleton, Factory y MVC."
+                },
+                {
+                  "name": "Autenticación y autorización",
+                  "description": "Implementar sistemas de inicio de sesión, manejo de roles y permisos."
+                },
+                {
+                  "name": "Servicios RESTful",
+                  "description": "Creación de servicios RESTful utilizando PHP y herramientas como Slim Framework."
+                },
+                {
+                  "name": "Integración con APIs externas",
+                  "description": "Integrar la aplicación con APIs como Stripe, Twilio, o Google Maps."
+                },
+                {
+                  "name": "Composer y gestión de dependencias",
+                  "description": "Cómo utilizar Composer para gestionar bibliotecas y dependencias en tus proyectos."
+                },
+                {
+                  "name": "Testing",
+                  "description": "Pruebas unitarias con PHPUnit."
+                },
+                {
+                  "name": "Optimización de rendimiento",
+                  "description": "Almacenamiento en caché y consultas eficientes."
+                },
+                {
+                  "name": "Docker y despliegue",
+                  "description": "Empaquetar y desplegar aplicaciones usando Docker y herramientas CI/CD."
+                },
+                {
+                  "name": "Seguridad avanzada",
+                  "description": "Cifrado, tokens JWT y protección contra ataques."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SQL",
+          "subtitle": "Structured Query Language",
+          "description": "Lenguaje estándar utilizado para interactuar y gestionar bases de datos relacionales.",
+          "noStudy": [
+            {
+              "name": "Cláusula HAVING",
+              "description": "Condiciones a grupos de datos utilizando `HAVING`."
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Optimización de consultas",
+                  "description": "Cómo analizar y optimizar consultas utilizando herramientas como `EXPLAIN`."
+                },
+                {
+                  "name": "Particionamiento de tablas",
+                  "description": "Cómo dividir grandes tablas en particiones para mejorar el rendimiento."
+                },
+                {
+                  "name": "Normalización y desnormalización",
+                  "description": "Conceptos de normalización y cuándo desnormalizar para mejorar el rendimiento."
+                },
+                {
+                  "name": "Cláusula WINDOW y funciones de ventana",
+                  "description": "Uso de funciones de ventana como `ROW_NUMBER`, `RANK` y `NTILE` para análisis avanzados."
+                },
+                {
+                  "name": "Replicación de bases de datos",
+                  "description": "Cómo configurar y usar replicación para redundancia y escalabilidad."
+                },
+                {
+                  "name": "Sharding",
+                  "description": "División horizontal de datos en diferentes bases de datos para manejar grandes volúmenes."
+                },
+                {
+                  "name": "Seguridad en SQL",
+                  "description": "Buenas prácticas para proteger bases de datos, incluyendo permisos de usuario y cifrado."
+                },
+                {
+                  "name": "Integración con otros lenguajes",
+                  "description": "Cómo utilizar SQL junto con lenguajes como Python, PHP o JavaScript."
+                },
+                {
+                  "name": "Bases de datos NoSQL vs SQL",
+                  "description": "Diferencias y cuándo usar bases de datos relacionales o NoSQL."
+                },
+                {
+                  "name": "Análisis de datos con SQL",
+                  "description": "Cómo realizar análisis avanzado de datos utilizando funciones específicas de SQL."
+                }
+              ]
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Consultas SELECT",
+                  "description": "`SELECT` para recuperar datos de una tabla."
+                },
+                {
+                  "name": "Filtrado de datos",
+                  "description": "`WHERE` para aplicar condiciones y filtrar resultados."
+                },
+                {
+                  "name": "Ordenamiento de resultados",
+                  "description": "`ORDER BY` para ordenar resultados de manera ascendente o descendente."
+                },
+                {
+                  "name": "Columnas calculadas y alias",
+                  "description": "Crear columnas y utilizar alias con `AS` para renombrar columnas en las consultas."
+                },
+                {
+                  "name": "Funciones agregadas básicas",
+                  "description": "Funciones como `COUNT`, `SUM`, `AVG`, `MIN` y `MAX`."
+                },
+                {
+                  "name": "Agrupación de datos",
+                  "description": "`GROUP BY` para agrupar resultados y trabajar con datos resumidos."
+                },
+                {
+                  "name": "Inserción de datos",
+                  "description": "Uso de `INSERT` para agregar nuevos registros a una tabla."
+                },
+                {
+                  "name": "Actualización de datos",
+                  "description": "Modificar registros existentes con `UPDATE`."
+                },
+                {
+                  "name": "Eliminación de datos",
+                  "description": "`DELETE` para eliminar registros específicos de una tabla."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Uniones (JOINs)",
+                  "description": "combinar múltiples tablas utilizando `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` y `FULL JOIN`."
+                },
+                {
+                  "name": "Subconsultas",
+                  "description": "Subconsultas en cláusulas como `WHERE`, `FROM` y `SELECT`."
+                },
+                {
+                  "name": "Relaciones entre tablas",
+                  "description": "Conceptos de claves primarias, claves foráneas y cómo definir relaciones entre tablas."
+                },
+                {
+                  "name": "Indices",
+                  "description": "Los índices mejoran el rendimiento de las consultas."
+                },
+                {
+                  "name": "Restricciones",
+                  "description": "Uso de restricciones como `NOT NULL`, `UNIQUE`, `DEFAULT` y `CHECK`."
+                },
+                {
+                  "name": "Funciones avanzadas",
+                  "description": "Uso de funciones como `CONCAT`, `SUBSTRING`, `CASE`, y funciones de fecha y hora."
+                },
+                {
+                  "name": "Vistas",
+                  "description": "Crear vistas para simplifican consultas complejas."
+                },
+                {
+                  "name": "Procedimientos almacenados",
+                  "description": "Automatizar tareas repetitivas."
+                },
+                {
+                  "name": "Triggers",
+                  "description": "Ejecutar acciones automáticas en respuesta a eventos."
+                },
+                {
+                  "name": "Transacciones",
+                  "description": "Garantizar la consistencia de los datos con `BEGIN`, `COMMIT` y `ROLLBACK`."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "C#",
+          "subtitle": "Lenguaje de programación orientado a objetos.",
+          "description": "C# es un lenguaje moderno desarrollado por Microsoft, versátil y robusto utilizado para el desarrollo de aplicaciones de escritorio, web, móviles y juegos.",
+          "noStudy": [
+            {
+              "name": "Desarrollo de juegos con Unity y C#",
+              "description": "Uso de C# como lenguaje principal en el motor de videojuegos Unity."
+            },
+            {
+              "name": "Inyección de dependencias y diseño de aplicaciones",
+              "description": "Patrón de inyección de dependencias y su implementación en aplicaciones modernas."
+            },
+            {
+              "name": "Reflexión y metadatos",
+              "description": "Uso de reflexión para inspeccionar y manipular tipos en tiempo de ejecución."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Tipos de datos y variables",
+                  "description": "Tipos de datos primitivos, declaración e inicialización de variables."
+                },
+                {
+                  "name": "Operadores",
+                  "description": "Operadores aritméticos, relacionales, lógicos y de asignación."
+                },
+                {
+                  "name": "Control de flujo",
+                  "description": "Estructuras condicionales (`if`, `else`, `switch`) y bucles (`for`, `while`, `do-while`)."
+                },
+                {
+                  "name": "Métodos y funciones",
+                  "description": "Definir y llamar métodos, parámetros y valores de retorno."
+                },
+                {
+                  "name": "Arreglos",
+                  "description": "Declaración, inicialización y manipulación de arrays."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Programación Orientada a Objetos (POO)",
+                  "description": "Conceptos de clases, objetos, métodos y encapsulación."
+                },
+                {
+                  "name": "Herencia y Polimorfismo",
+                  "description": "Reutilización de código y aplicar polimorfismo en métodos."
+                },
+                {
+                  "name": "Interfaces y abstracción",
+                  "description": "Definición de interfaces, clases abstractas y su uso en diseño de aplicaciones."
+                },
+                {
+                  "name": "Colecciones y genéricos",
+                  "description": "Uso de colecciones como listas, diccionarios y colas. Introducción a genéricos para mayor flexibilidad."
+                },
+                {
+                  "name": "Excepciones y manejo de errores",
+                  "description": "Manejar errores con bloques `try`, `catch`, `finally` y lanzar excepciones personalizadas."
+                },
+                {
+                  "name": "Delegados y eventos",
+                  "description": "Delegados y manejar eventos y callbacks."
+                },
+                {
+                  "name": "LINQ (Language Integrated Query)",
+                  "description": "LINQ para consultas a colecciones y bases de datos."
+                },
+                {
+                  "name": "Enumeraciones y estructuras",
+                  "description": "Uso de enums y structs para organizar datos."
+                },
+                {
+                  "name": "Archivos y flujo de datos",
+                  "description": "Leer y escribir archivos, y trabajar con streams en C#."
+                },
+                {
+                  "name": "Programación asíncrona y multihilo",
+                  "description": "`async` y `await`, y uso de hilos para tareas concurrentes."
+                }
+              ]
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Programación funcional",
+                  "description": "Uso de funciones lambda, expresiones y conceptos de programación funcional."
+                },
+                {
+                  "name": "Patrones de diseño",
+                  "description": "Aplicación de patrones de diseño comunes como Singleton, Factory y Observer."
+                },
+                {
+                  "name": "Serialización y deserialización",
+                  "description": "Convertir objetos a formatos como JSON y XML, y viceversa."
+                },
+                {
+                  "name": "Seguridad",
+                  "description": "Buenas prácticas para proteger aplicaciones, incluyendo cifrado y manejo de datos sensibles."
+                },
+                {
+                  "name": "Integración con bases de datos",
+                  "description": "Uso de `Entity Framework` y `ADO.NET` para conectarse y manipular bases de datos."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "title": "React",
+          "subtitle": "Biblioteca JavaScript para construir interfaces de usuario",
+          "noStudy": [
+            {
+              "name": "Internals de React",
+              "description": "Entender el Virtual DOM, reconciliación y cómo React maneja las actualizaciones."
+            },
+            {
+              "name": "Desarrollo de bibliotecas de componentes",
+              "description": "Cómo crear, empaquetar y publicar bibliotecas de componentes reutilizables."
+            },
+            {
+              "name": "React Concurrent Mode",
+              "description": "Renderizado concurrente para mejorar la experiencia del usuario."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "JSX y su sintaxis",
+                  "description": "Combinar HTML y JavaScript en componentes React."
+                },
+                {
+                  "name": "Componentes en React",
+                  "description": "Definición, tipos de componentes (funcionales y de clase)."
+                },
+                {
+                  "name": "Props y estado",
+                  "description": "Transmisión de datos a través de props y manejo del estado interno de los componentes."
+                },
+                {
+                  "name": "Eventos en React",
+                  "description": "Manejo de eventos como clicks, teclas y otros eventos del DOM en React."
+                },
+                {
+                  "name": "Renderizado condicional",
+                  "description": "Mostrar contenido basado en condiciones específicas usando `if`, `ternarios` y operadores lógicos."
+                },
+                {
+                  "name": "Listas y claves",
+                  "description": "Renderización de listas dinámicas y uso de claves únicas en React."
+                },
+                {
+                  "name": "Hooks básico",
+                  "description": "Uso básico de hooks como `useState` y `useEffect`."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Ciclo de vida",
+                  "description": "Ciclo de vida de los componentes funcionales y de clase."
+                },
+                {
+                  "name": "Hooks adicionales",
+                  "description": "Uso de hooks como `useContext`, `useReducer` y `useRef`."
+                },
+                {
+                  "name": "Context API",
+                  "description": "Manejo de estados globales utilizando la API de Context."
+                },
+                {
+                  "name": "Componentes controlados y no controlados",
+                  "description": "Manejo de formularios y entradas controladas por estado."
+                },
+                {
+                  "name": "Optimización del rendimiento",
+                  "description": "Uso de `React.memo`, `useMemo` y `useCallback` para optimizar componentes."
+                },
+                {
+                  "name": "React Router",
+                  "description": "Erutamiento en aplicaciones React con React Router."
+                },
+                {
+                  "name": "Manejo de errores",
+                  "description": "`Error Boundaries` para manejar errores en componentes."
+                },
+                {
+                  "name": "Render Props y HOCs",
+                  "description": "Composición de componentes utilizando Render Props y High Order Components."
+                },
+                {
+                  "name": "Estilos en React",
+                  "description": "Uso de CSS Modules, Styled Components, Tailwind CSS y otras herramientas de estilo."
+                }
+              ]
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Server-Side Rendering (SSR) con Next.js",
+                  "description": "Renderización de aplicaciones React en el servidor para mejorar el SEO y rendimiento."
+                },
+                {
+                  "name": "Static Site Generation (SSG)",
+                  "description": "Creación de sitios estáticos con React y herramientas como Next.js."
+                },
+                {
+                  "name": "Portales en React",
+                  "description": "Uso de portales para renderizar elementos fuera del árbol DOM principal."
+                },
+                {
+                  "name": "Suspense y carga de datos",
+                  "description": "Uso de `Suspense` y `React.lazy` para dividir el código y cargar componentes bajo demanda."
+                },
+                {
+                  "name": "Integración con GraphQL",
+                  "description": "Consumo de datos usando GraphQL con bibliotecas como Apollo Client."
+                },
+                {
+                  "name": "Estado global avanzado",
+                  "description": "Uso de herramientas como Redux, Zustand o Recoil para manejar estados complejos."
+                },
+                {
+                  "name": "Pruebas en React",
+                  "description": "Pruebas unitarias y de integración con Jest y React Testing Library."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "frameworks": [
+        {
+          "title": "Next.js",
+          "subtitle": "Framework React para aplicaciones web modernas",
+          "description": "Next.js es un framework React que permite crear aplicaciones web con características avanzadas como renderización en el servidor, generación de sitios estáticos y enrutamiento basado en archivos.",
+          "noStudy": [
+            {
+              "name": "Renderizado estático básico",
+              "description": "Uso de `getStaticProps` y `getStaticPaths` para páginas generadas estáticamente."
+            },
+            {
+              "name": "Renderizado en el servidor (SSR)",
+              "description": "Uso de `getServerSideProps` para páginas renderizadas en el servidor."
+            },
+            {
+              "name": "Pre-rendering y datos híbridos",
+              "description": "Combinación de SSR y SSG en la misma aplicación."
+            },
+            {
+              "name": "Carga de datos en tiempo de ejecución",
+              "description": "Cómo manejar la carga de datos en el cliente usando SWR o React Query."
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Incremental Static Regeneration (ISR)",
+                  "description": "Regeneración de páginas estáticas de forma incremental con Next.js."
+                },
+                {
+                  "name": "Integración con CMS",
+                  "description": "Conectar Next.js con CMS headless como Strapi, Contentful o Sanity."
+                },
+                {
+                  "name": "Autenticación y autorización",
+                  "description": "Implementar autenticación utilizando JWT, OAuth o NextAuth."
+                },
+                {
+                  "name": "Configuración avanzada de Webpack",
+                  "description": "Personalización de Webpack en Next.js para optimizar el rendimiento."
+                },
+                {
+                  "name": "Middleware avanzado",
+                  "description": "Uso avanzado de middleware para control de flujo y transformaciones."
+                },
+                {
+                  "name": "Páginas protegidas y reactivas",
+                  "description": "Cómo proteger rutas y manejar redirecciones con SSR y client-side rendering."
+                },
+                {
+                  "name": "Despliegue y hosting",
+                  "description": "Despliegue de aplicaciones Next.js en plataformas como Vercel, AWS o Netlify."
+                },
+                {
+                  "name": "Performance Optimization",
+                  "description": "Técnicas para optimizar el rendimiento, como reducción de tamaño de paquete, lazy loading y análisis de métricas."
+                },
+                {
+                  "name": "Análisis del rendimiento con Lighthouse y Core Web Vitals",
+                  "description": "Cómo medir y mejorar el rendimiento de una aplicación Next.js."
+                },
+                {
+                  "name": "React Server Components",
+                  "description": "Uso de React Server Components con Next.js para mejorar la experiencia del usuario."
+                }
+              ]
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Páginas y enrutamiento básico",
+                  "description": "Enrutamiento basado en archivos en Next.js."
+                },
+                {
+                  "name": "Estilización básica",
+                  "description": "Uso de CSS en Next.js: CSS Modules, estilos globales y CSS en línea."
+                },
+                {
+                  "name": "Imágenes optimizadas",
+                  "description": "`next/image` para cargar imágenes optimizadas."
+                },
+                {
+                  "name": "Meta etiquetas",
+                  "description": "`next/head` para agregar meta etiquetas dinámicamente."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "API Routes",
+                  "description": "Crear rutas de API para manejar backend."
+                },
+                {
+                  "name": "Middleware",
+                  "description": "Implementación de middleware para control de acceso, redirecciones y más."
+                },
+                {
+                  "name": "Dynamic Routing",
+                  "description": "Creación de rutas dinámicas y anidadas en Next.js."
+                },
+                {
+                  "name": "Estilización avanzada",
+                  "description": "Uso de herramientas como Tailwind CSS, Styled Components o Emotion con Next.js."
+                },
+                {
+                  "name": "Internacionalización (i18n)",
+                  "description": "Configuración de Next.js para manejar múltiples idiomas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "React Native",
+          "subtitle": "Framework para aplicaciones móviles multiplataforma",
+          "noStudy": [
+            {
+              "name": "Animaciones básicas",
+              "description": "`Animated` y la librería `react-native-reanimated`."
+            },
+            {
+              "name": "Manejo de medios",
+              "description": "Uso de la cámara, galería e imágenes con `react-native-image-picker`."
+            },
+            {
+              "name": "Almacenamiento local",
+              "description": "AsyncStorage o librerías como MMKV para persistencia de datos."
+            },
+            {
+              "name": "Acceso a sensores",
+              "description": "Uso de sensores del dispositivo como GPS, acelerómetro y giroscopio con Expo."
+            },
+            {
+              "name": "Notificaciones push",
+              "description": "Implementación de notificaciones push con Firebase Cloud Messaging."
+            },
+            {
+              "name": "Avanzado",
+              "lessons": [
+                {
+                  "name": "Integración con Native Modules",
+                  "description": "Creación de módulos nativos para Android."
+                }
+              ]
+            },
+            {
+              "name": "Integración con servicios de backend",
+              "description": "Conexión de la aplicación móvil con servicios backend como Firebase, AWS o GraphQL."
+            },
+            {
+              "name": "Despliegue en App Store y Google Play",
+              "description": "Proceso de construcción y despliegue de aplicaciones en las tiendas de aplicaciones."
+            },
+            {
+              "name": "Optimización del rendimiento",
+              "description": "Mejora del rendimiento de la aplicación mediante optimizaciones de renderizado y carga de datos."
+            },
+            {
+              "name": "Gestión avanzada del estado con Redux",
+              "description": "Uso de Redux o Redux Toolkit para manejar estados complejos."
+            },
+            {
+              "name": "Integración de pagos",
+              "description": "Implementación de sistemas de pagos con Stripe o PayPal en la aplicación."
+            },
+            {
+              "name": "Pruebas automatizadas",
+              "description": "Creación de pruebas unitarias y de integración con Jest y Detox."
+            },
+            {
+              "name": "Acceso a funciones avanzadas del hardware",
+              "description": "Uso de funciones como biometría, NFC y Bluetooth."
+            },
+            {
+              "name": "Desarrollo multiplataforma",
+              "description": "Uso de librerías como `react-native-web` para compatibilidad con plataformas web."
+            }
+          ],
+          "levels": [
+            {
+              "name": "Básico",
+              "lessons": [
+                {
+                  "name": "Componentes básicos",
+                  "description": "Uso de componentes como `View`, `Text`, `Image`, `ScrollView` y `Touchable`."
+                },
+                {
+                  "name": "Estilos",
+                  "description": "Sistema de estilos en React Native y a trabajar con Flexbox."
+                },
+                {
+                  "name": "Navegación React Navigation",
+                  "description": "Navegación entre pantallas."
+                },
+                {
+                  "name": "Hooks",
+                  "description": "Hooks como `useState` y `useEffect`."
+                },
+                {
+                  "name": "Renderizado condicional",
+                  "description": "Renderizado condicional en una aplicación móvil."
+                },
+                {
+                  "name": "Gestión de listas",
+                  "description": "`FlatList` y `SectionList` para renderizar listas de datos."
+                }
+              ]
+            },
+            {
+              "name": "Intermedio",
+              "lessons": [
+                {
+                  "name": "Navegación avanzada",
+                  "description": "Uso de navegadores stack, tab y drawer con React Navigation."
+                },
+                {
+                  "name": "Context API",
+                  "description": "Gestión del estado global usando Context API."
+                },
+                {
+                  "name": "APIs REST",
+                  "description": "Solicitudes HTTP con `fetch` o Axios para consumir APIs REST."
+                },
+                {
+                  "name": "Formularios",
+                  "description": "Implementación de formularios utilizando `TextInput` y librerías como Formik o React Hook Form."
+                },
+                {
+                  "name": "Internacionalización (i18n)",
+                  "description": "Implementación de múltiples idiomas en la aplicación."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "noSkills": "No hay habilidades disponibles para esta categoría."
+  }
+}
