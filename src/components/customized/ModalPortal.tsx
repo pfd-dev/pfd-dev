@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from "react";
-import { createPortal } from "react-dom";
+import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 // Hooks
-import { useThemeController } from "@/libs/hooks/useThemeController";
-// Global Components
-import { Button } from "@/components/common";
+import { useThemeController } from '@/libs/hooks';
+// Components
+import { Button } from '@/components/common';
 // Icons
-import { IconClose } from "@/utils/IconsGoogle";
+import { IconClose } from '@/utils/IconsGoogle';
 
 // <body>: <div id="modal-portal-root"></div>
 
@@ -16,7 +16,7 @@ interface ModalPortalProps {
   actionButtonText?: string;
   leftButtonIcon?: React.ReactElement | string | undefined;
   rightButtonIcon?: React.ReactElement | string | undefined;
-  stylesButton?: string;
+  classNameButton?: string;
 };
 
 const ModalPortal: React.FC<ModalPortalProps> = ({
@@ -26,7 +26,7 @@ const ModalPortal: React.FC<ModalPortalProps> = ({
   actionButtonText = "Open Modal",
   leftButtonIcon,
   rightButtonIcon,
-  stylesButton,
+  classNameButton,
 }) => {
   const [isOpenModal, setIsOpenModal] = useState(false);
   const modalRef = useRef<HTMLDialogElement | null>(null);
@@ -94,7 +94,7 @@ const ModalPortal: React.FC<ModalPortalProps> = ({
             text={actionButtonText}
             rightIcon={rightButtonIcon}
             leftIcon={leftButtonIcon}
-            styles={stylesButton}
+            styles={classNameButton}
             onClick={handleOpenModal}
           />
       }

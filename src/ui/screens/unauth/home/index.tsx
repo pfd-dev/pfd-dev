@@ -1,26 +1,27 @@
-"use client";
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 // Hooks
-import { useThemeController } from "@/libs/hooks/useThemeController";
+import { useThemeController } from '@/libs/hooks';
 // Icons
-import { GitHubIcon, GmailIcon, LinkedInIcon } from "@/utils/icons";
+import { GitHubIcon, GmailIcon, LinkedInIcon } from '@/utils/icons';
 // Pictures
-import photoProfile from "@/utils/images/profile.png";
+import photoProfile from '@/utils/images/profile.png';
 // Local Components
-import { SkillsDev } from "./components/SkillsDev";
-import { WorkExperience } from "./components/WorkExperience";
+import { SkillsDev, WorkExperience } from './components';
 // Lang
-import dataLeng from "./lang-es.json";
+import dataLeng from './lang-es.json';
+// import { getDictionary } from '@/app/[lang]/dictionaries';
 
-// &quot; = ""
+// &quot; = ''
 
-const HomeScreen: React.FC = () => {
+const HomeScreen = ({ params: { lang } }: { params: { lang: 'en' | 'es' } }) => {
   const { tones } = useThemeController();
+  // const dict = await getDictionary(lang)
 
   const [copied, setCopied] = useState(false);
-  const email = "pfd1795@gmail.com";
+  const email = 'pfd1795@gmail.com';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email).then(() => {
@@ -32,6 +33,7 @@ const HomeScreen: React.FC = () => {
   return (
     <>
       <section className="text-stone-200 p-2 md:p-4 space-y-2">
+        {/* <p>text: {dict.title}</p> */}
         <p>
           <strong className="text-3xl md:text-5xl text-nowrap md:pl-10 mr-2">{dataLeng.home.welcomeMessage}</strong>
           <br className="md:hidden" />

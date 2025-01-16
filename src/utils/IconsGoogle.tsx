@@ -1,6 +1,6 @@
 import React from "react";
 
-export function IconSearch({ className = "fill-inherit", size = "32px" }) {
+export function IconSearch({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ export function IconSearch({ className = "fill-inherit", size = "32px" }) {
   );
 }
 
-export function IconHome({ className = "fill-inherit", size = "32px" }) {
+export function IconHome({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ export function IconHome({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconLabProfile({ className = "fill-inherit", size = "32px" }) {
+export function IconLabProfile({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export function IconLabProfile({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconDeployedCode({ className = "fill-inherit", size = "32px" }) {
+export function IconDeployedCode({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export function IconDeployedCode({ className = "fill-inherit", size = "32px" }) 
   )
 }
 
-export function IconGuardian({ className = "fill-inherit", size = "32px" }) {
+export function IconGuardian({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ export function IconGuardian({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconSettings({ className = "fill-inherit", size = "32px" }) {
+export function IconSettings({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ export function IconSettings({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconMenu({ className = "fill-inherit", size = "32px" }) {
+export function IconMenu({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export function IconMenu({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconClose({ className = "fill-inherit", size = "32px" }) {
+export function IconClose({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ export function IconClose({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconKeyboardArrowDown({ className = "fill-inherit", size = "32px" }) {
+export function IconKeyboardArrowDown({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export function IconKeyboardArrowDown({ className = "fill-inherit", size = "32px
   )
 }
 
-export function IconKeyboardArrowUp({ className = "fill-inherit", size = "32px" }) {
+export function IconKeyboardArrowUp({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ export function IconKeyboardArrowUp({ className = "fill-inherit", size = "32px" 
   )
 }
 
-export function IconCheckCircle({ className = "fill-inherit", size = "32px" }) {
+export function IconCheckCircle({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ export function IconCheckCircle({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconPalette({ className = "fill-inherit", size = "32px" }) {
+export function IconPalette({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ export function IconPalette({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconSportsEsports({ className = "fill-inherit", size = "32px" }) {
+export function IconSportsEsports({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +182,7 @@ export function IconSportsEsports({ className = "fill-inherit", size = "32px" })
   )
 }
 
-export function IconInfo({ className = "fill-inherit", size = "32px" }) {
+export function IconInfo({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +196,7 @@ export function IconInfo({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconQuestionMark({ className = "fill-inherit", size = "32px" }) {
+export function IconQuestionMark({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +210,7 @@ export function IconQuestionMark({ className = "fill-inherit", size = "32px" }) 
   )
 }
 
-export function IconRestartAlt({ className = "fill-inherit", size = "32px" }) {
+export function IconRestartAlt({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -224,7 +224,7 @@ export function IconRestartAlt({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconAddCircle({ className = "fill-inherit", size = "32px" }) {
+export function IconAddCircle({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +238,7 @@ export function IconAddCircle({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconEdit({ className = "fill-inherit", size = "32px" }) {
+export function IconEdit({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ export function IconEdit({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconDelete({ className = "fill-inherit", size = "32px" }) {
+export function IconDelete({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +266,7 @@ export function IconDelete({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconDownload({ className = "fill-inherit", size = "32px" }) {
+export function IconDownload({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -280,7 +280,7 @@ export function IconDownload({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconDarkMode({ className = "fill-inherit", size = "32px" }) {
+export function IconDarkMode({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -294,7 +294,7 @@ export function IconDarkMode({ className = "fill-inherit", size = "32px" }) {
   )
 }
 
-export function IconLightMode({ className = "fill-inherit", size = "32px" }) {
+export function IconLightMode({ className = "fill-inherit", size = "24px" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

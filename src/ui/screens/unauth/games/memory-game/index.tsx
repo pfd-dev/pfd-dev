@@ -205,7 +205,7 @@ const MemoryGame: React.FC = () => {
         <div className="p-4 flex flex-col justify-center text-center gap-4">
           <h2 className="text-3xl font-bold">¡Felicitaciones!</h2>
           <p>Completaste el juego en {state.moves} movimientos.</p>
-          <Button onClick={initializeGame} text="reiniciar el juego" styles="self-center" />
+          <Button text={"reiniciar el juego"} onClick={initializeGame} styles={"self-center"} />
         </div>
       </PopupModal>
     </>

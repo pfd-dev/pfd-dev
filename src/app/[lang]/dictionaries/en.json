@@ -1,0 +1,5 @@
+{
+  "title": "Welcome to our Multilanguage App",
+  "description": "This is a simple example of a multilanguage app using Next.js",
+  "changeLanguage": "Change language to Spanish"
+}
