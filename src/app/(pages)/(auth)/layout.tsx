@@ -1,11 +1,7 @@
-"use client";
+'use client';
 
-export default function UserLayout(props: {
-  children: React.ReactNode;
-}) {
+export default function UserLayout({ children }: { children: React.ReactNode; }) {
   return (
-    <div>
-      {props.children}
-    </div>
+    <div>{children}</div>
   );
 }

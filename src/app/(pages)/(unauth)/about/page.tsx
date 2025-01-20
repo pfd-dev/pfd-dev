@@ -1,4 +1,4 @@
-import { AboutScreen } from "@/ui/screens";
+import { AboutScreen } from '@/ui/screens';
 
 export default function About() {
   return <AboutScreen />

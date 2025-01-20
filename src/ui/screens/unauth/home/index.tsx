@@ -12,11 +12,10 @@ import photoProfile from '@/utils/images/profile.png';
 import { SkillsDev, WorkExperience } from './components';
 // Lang
 import dataLeng from './lang-es.json';
-// import { getDictionary } from '@/app/[lang]/dictionaries';
 
 // &quot; = ''
 
-const HomeScreen = ({ params: { lang } }: { params: { lang: 'en' | 'es' } }) => {
+function HomeScreen() {
   const { tones } = useThemeController();
   // const dict = await getDictionary(lang)
 
