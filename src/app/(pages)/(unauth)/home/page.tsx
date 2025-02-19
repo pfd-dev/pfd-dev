@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <section className="md:space-y-1">
-        <p>
+        <p className='text-stone-200'>
           <strong className="text-5xl text-nowrap pl-4 md:pl-10 mr-2">{dataLeng.HomePage.intro.welcomeMessage}</strong>
           <br className="md:hidden" />
           <span className="text-2xl text-nowrap">{dataLeng.HomePage.intro.introText}</span>
@@ -35,7 +35,7 @@ export default function Home() {
           </figure>
 
           <div>
-            <p className="md:text-xl">
+            <p className="md:text-xl text-stone-200">
               <span className="ml-4"></span>
               {dataLeng.HomePage.intro.description.greeting} <strong className="text-xl italic">{dataLeng.HomePage.intro.description.name}</strong>{dataLeng.HomePage.intro.description.role}<br />
               <span className="ml-4"></span>
