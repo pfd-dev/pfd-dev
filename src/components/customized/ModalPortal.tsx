@@ -1,7 +1,8 @@
+'use client';
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 // Hooks
-import { useThemeController } from '@/libs/hooks';
+import { useThemeController } from '@/libs/hooks/useThemeController';
 // Components
 import { Button } from '@/components/common';
 // Icons

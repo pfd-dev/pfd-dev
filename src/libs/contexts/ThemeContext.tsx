@@ -1,4 +1,3 @@
-"use client";
 import { createContext, useState, useEffect, useContext, useMemo } from "react";
 
 // Define types for theme and colors.
@@ -74,9 +73,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   }), [stageColor]);
 
   return (
-    <ThemeContext.Provider
-      value={{ theme, stageColor, tones, toggleTheme, setStageColor }}
-    >
+    <ThemeContext.Provider value={{ theme, stageColor, tones, toggleTheme, setStageColor }}>
       {children}
     </ThemeContext.Provider>
   );

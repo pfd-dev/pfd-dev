@@ -1,7 +1,28 @@
 'use client'
-import { PublicPageLayout } from '@/ui/layouts';
 // Contaxts
 import { ThemeProvider } from '@/libs/contexts/ThemeContext';
+// Hooks
+import { useThemeController } from '@/libs/hooks/useThemeController';
+// Local Components
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+
+export const PublicPageLayout = ({ children }: { children: React.ReactNode; }) => {
+  const { tones } = useThemeController();
+
+  return (
+    <div className={`bg-fixed bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] ${tones.fromColor.dark} to-stone-950 min-h-screen grid`}>
+      <Header />
+
+      <Main>
+        {children}
+      </Main>
+
+      <Footer />
+    </div>
+  );
+}
 
 export default function PagesLayout({ children }: { children: React.ReactNode; }) {
   return (

@@ -22,10 +22,10 @@ export function SkillsDev() {
   const { tones, UI_COLORS } = useThemeController();
 
   return (
-    <section className={`${UI_COLORS.container} rounded-xl p-4 space-y-4 overflow-hidden`}>
+    <section className={`${UI_COLORS.container} rounded-xl pt-2 pb-2 px-2 md:pb-4 md:px-4 space-y-4 overflow-hidden`}>
       <header>
-        <h2 className="text-2xl md:text-3xl font-bold text-center uppercase">{dataLeng.HomePage.skillsDev.header.title}</h2>
-        <h3 className="px-4 md:px-10">{dataLeng.HomePage.skillsDev.header.subtitle}</h3>
+        <h2 className="text-3xl font-bold text-center uppercase">{dataLeng.HomePage.skillsDev.header.title}</h2>
+        <h3 className="text-center">{dataLeng.HomePage.skillsDev.header.subtitle}</h3>
       </header>
 
       <Tabs
@@ -36,7 +36,7 @@ export function SkillsDev() {
 
       <div>
         {currentSkills.length > 0 ?
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {currentSkills.map((skill, index) =>
               <ModalPortal
                 key={index}
@@ -48,7 +48,7 @@ export function SkillsDev() {
                   </article>
                 }
               >
-                <section className="space-y-4">
+                <section className="space-y-2">
                   {skill.levels.map((level, index) =>
                     <article key={index} className="py-2 space-y-2">
                       <h3 className={`border-b-4 border-dashed ${tones.borderColor.normal} text-2xl md:text-3xl uppercase font-bold`}>{level.name}</h3>
@@ -60,9 +60,9 @@ export function SkillsDev() {
                               <strong className="uppercase">{item.name}</strong>
                             </span></h5>
 
-                            <p>{item.description}</p>
+                            {/* <p>{item.description}</p> */}
 
-                            {item.codeExample.length && <p className='text-sm italic font-bold'>{item.codeExample.join(' | ')}</p>}
+                            {/* {item.codeExample.length > 0 && <p className='text-sm italic font-bold'>{item.codeExample.join(' | ')}</p>} */}
                           </li>
                         )}
                       </ul>

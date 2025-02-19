@@ -9,10 +9,10 @@ export function WorkExperience() {
   const { tones, UI_COLORS } = useThemeController();
 
   return (
-    <section className={`${UI_COLORS.container} rounded-xl py-4 p-4 space-y-4 overflow-hidden`}>
+    <section className={`${UI_COLORS.container} rounded-xl pt-2 pb-2 px-2 md:pb-4 md:px-4 space-y-4 overflow-hidden`}>
       <header>
-        <h2 className="text-2xl md:text-3xl font-bold text-center uppercase">{dataLeng.HomePage.workExperience.overview.title}</h2>
-        <h3 className="px-4 md:px-10">{dataLeng.HomePage.workExperience.overview.subtitle}</h3>
+        <h2 className="text-3xl font-bold text-center uppercase">{dataLeng.HomePage.workExperience.overview.title}</h2>
+        <h3 className="text-center">{dataLeng.HomePage.workExperience.overview.subtitle}</h3>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -21,8 +21,8 @@ export function WorkExperience() {
             key={index}
             modalTitle={dataLeng.HomePage.workExperience.overview.title + ": " + item.company}
             actionButton={
-              <article className={`${tones.bgColor.dark} hover:${tones.bgColor.normal} outline  ${tones.outlineColor.normal} ${tones.textColor} h-full flex flex-col justify-center p-4 rounded-md cursor-pointer`}>
-                <h4 className="text-xl md:text-2xl text-center text-balance font-bold mb-2">{item.company}</h4>
+              <article className={`${tones.bgColor.dark} hover:${tones.bgColor.normal} outline  ${tones.outlineColor.normal} ${tones.textColor} h-full flex flex-col justify-center px-1 rounded-xl cursor-pointer`}>
+                <h4 className="text-2xl text-center text-balance font-bold mb-2">{item.company}</h4>
                 <h5 className="text-center text-balance mb-4">{item.role}</h5>
               </article>
             }

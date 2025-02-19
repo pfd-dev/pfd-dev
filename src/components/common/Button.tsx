@@ -1,6 +1,6 @@
 import React from 'react';
 // Hooks
-import { useThemeController } from '@/libs/hooks';
+import { useThemeController } from '@/libs/hooks/useThemeController';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   isLoading?: boolean;
@@ -40,7 +40,7 @@ export const Button: React.FC<ButtonProps> = ({
         <span className="loader" aria-hidden="true" /> :
         <>
           {leftIcon && <span className="fill-stone-200 flex items-center">{leftIcon}</span>}
-          {text && <span className="text-stone-200 text-sm font-medium">{text}</span>}
+          {text && <span className="text-stone-200 text-sm font-bold capitalize">{text}</span>}
           {rightIcon && <span className="fill-stone-200 flex items-center">{rightIcon}</span>}
           {children}
         </>

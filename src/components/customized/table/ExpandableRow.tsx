@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 // Hooks
 import { useThemeController } from '@/libs/hooks/useThemeController';
