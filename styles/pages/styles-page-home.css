@@ -1,0 +1,113 @@
+/* ==============================
+========== PAGE: HOME ==========
+============================== */
+
+#pageHome {
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+
+        .welcome-text {
+            strong {
+                font-size: var(--text-extralarge);
+                font-weight: bold;
+                padding-left: 1em;
+                white-space: nowrap;
+            }
+
+            span {
+                font-size: 1.5em;
+                white-space: nowrap;
+            }
+        }
+
+        .content-container {
+            figure {
+                background-color: var(--color-light);
+                border-radius: 50%;
+                float: right;
+                height: 10em;
+                margin: .5em;
+                outline: 4px solid var(--theme-color);
+                overflow: hidden;
+                width: 10em;
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            .description-text {
+                span {
+                    margin-left: 1em;
+                }
+
+                strong {
+                    font-size: 1.25em;
+                    font-style: italic;
+                }
+            }
+
+            section {
+                display: flex;
+                justify-content: center;
+                gap: 2em;
+                flex-wrap: nowrap;
+
+                .social-link {
+                    background-color: var(--color-white);
+                    border-radius: 0.75em;
+                    border: 3px solid var(--color-dark);
+                    color: var(--color-dark);
+                    display: inline-block;
+                    padding: .3em;
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                }
+
+                .social-link:hover {
+                    color: var(--color-light);
+                    background-color: var(--theme-color);
+                }
+
+                .email-container {
+                    position: relative;
+                    display: inline-block;
+                }
+            }
+        }
+
+        @media (max-width: 768px) {}
+
+        @media (min-width: 768px) {
+
+            .welcome-text {
+                strong {
+                    margin-right: .3em;
+                }
+
+                br {
+                    display: none;
+                }
+
+                span {
+                    font-size: 1.5em;
+                    white-space: nowrap;
+                }
+            }
+
+            .content-container {
+                figure {
+                    float: left;
+                    margin: 1em;
+                }
+
+                section {
+                    justify-content: end;
+                }
+            }
+        }
+    }
+}

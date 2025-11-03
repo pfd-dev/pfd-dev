@@ -1,0 +1,44 @@
+@import url("./reset.css");
+@import url("./root.css");
+@import url("./components/global-styles.css");
+@import url("./components/navbar.css");
+
+.body_container {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    display: grid;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    min-height: 100vh;
+    transition: all 0.5s ease;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    @media print {
+        font-size: 1rem;
+        line-height: normal;
+    }
+}
+
+.body_container.dark {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.page-layout {
+    padding: 1em;
+
+    @media (min-width: 768px) {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    @media (min-width: 1200px) {
+        width: 65%;
+    }
+
+    @media print {
+        padding: 0;
+    }
+}

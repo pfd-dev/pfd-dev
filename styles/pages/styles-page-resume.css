@@ -1,0 +1,229 @@
+/* ==============================
+========== PAGE: RESUME ==========
+============================== */
+
+#pageResume {
+    main {
+        background-color: var(--color-light);
+        border-radius: 0.75em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 1em;
+        transition: box-shadow 0.3s ease;
+    }
+
+    main:hover {
+        box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .cv-header {
+        display: grid;
+        gap: .5em;
+
+        h2 {
+            font-size: 2.25em;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: .5em 2em;
+
+
+            h3 {
+                font-size: 1.2em;
+                white-space: nowrap;
+                text-transform: uppercase;
+            }
+
+            /* h3:nth-child(2) {
+                border-right: 2px solid var(--color-dark);
+                border-left: 2px solid var(--color-dark);
+                padding: 0 .5em;
+            } */
+        }
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+
+            h2 {
+                text-align: left;
+            }
+
+            div {
+                flex-direction: column;
+                gap: 0;
+
+                h3 {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+
+        .intro-content {
+            display: flex;
+            flex-direction: column;
+
+            strong {
+                font-size: 1.25em;
+            }
+
+            .email-container {
+                position: relative;
+                display: inline-block;
+            }
+
+            .email-link {
+                cursor: pointer;
+            }
+
+            .email-link:hover,
+            .social-link:hover {
+                color: var(--theme-color);
+                text-decoration: underline;
+            }
+        }
+
+        .greeting {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+
+            .greeting-title {
+                font-size: 1.25em;
+                font-weight: bold;
+                padding-left: 1.5em;
+            }
+
+            .greeting-text {
+                text-align: center;
+                text-wrap: balance;
+            }
+        }
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+
+            .intro-content {
+                width: 50%;
+            }
+
+            .greeting {
+                width: 50%;
+            }
+        }
+
+        @media print and (min-width: 700px) {
+            flex-direction: row;
+
+            .intro-content {
+                width: 50%;
+            }
+
+            .greeting {
+                width: 50%;
+            }
+        }
+    }
+
+    .layout-container {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+
+
+        .layout-header {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.875em;
+            text-transform: uppercase;
+        }
+
+        .grid-container {
+            display: grid;
+            gap: 1em;
+
+            @media (min-width: 768px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media print and (min-width: 700px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    @media print {
+        /* .card {
+            break-inside: avoid;
+        }
+
+        .work-card {
+            cursor: default;
+        } */
+    }
+
+    @media (max-width: 768px) {}
+
+    @media (min-width: 768px) {
+        main {
+            padding: 1em 2em;
+        }
+    }
+}
+
+#pageResume.dark {
+    main {
+        color: var(--color-dark);
+    }
+}
+
+.work-card {
+    display: grid;
+    cursor: pointer;
+
+    h4 {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-wrap: balance;
+    }
+
+    h5 {
+        font-size: 1.25em;
+        text-wrap: balance;
+    }
+
+    time {
+        font-size: 0.75em;
+        text-align: right;
+        font-style: italic;
+    }
+}
+
+.education-card {
+    h4 {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        text-wrap: balance;
+    }
+
+    p {
+        font-size: 1.25em;
+        text-align: center;
+        text-wrap: balance;
+    }
+}
