@@ -35,9 +35,10 @@ Pronto implementaré nuevas secciones, mejoras y funcionalidades.
 
 ### Contacto
 
-* **LinkedIn:**
-* **GitHub:**
-* **Email:**
+* **Página web portafolio:** [https://pfd-dev.github.io/pfd-dev/](https://pfd-dev.github.io/pfd-dev/)
+* **LinkedIn:** [https://www.linkedin.com/in/pfd-dev/](https://www.linkedin.com/in/pfd-dev/)
+* **GitHub:** [https://github.com/pfd-dev](https://github.com/pfd-dev)
+* **Email:** [pfd1795@gmail.com](mailto:pfd1795@gmail.com)
 
 <!--
 ## Hi there 👋
