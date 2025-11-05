@@ -4,6 +4,8 @@ Este repositorio contiene el código fuente de mi **página web principal de por
 
 He elegido este stack tecnológico para mantener un sitio **ligero, accesible, rápido y fácil de mantener**, además de ser el núcleo que conecta con mis demás proyectos, donde muestro habilidades con otras tecnologías.
 
+* **Página web portafolio desplegado en GitHub Pages:** [https://pfd-dev.github.io/pfd-dev/](https://pfd-dev.github.io/pfd-dev/)
+
 ---
 
 ### Contenido del sitio web
@@ -26,9 +28,12 @@ Pronto implementaré nuevas secciones, mejoras y funcionalidades.
 
 ---
 
-### Cómo ejecutar el proyecto
+### Ejecutar el proyecto
 
-1. Clonar el repositorio.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/pfd-dev/pfd-dev.git
+   ```
 2. Abrir el archivo `index.html` en tu navegador.
 
 ---
