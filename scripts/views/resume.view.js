@@ -87,7 +87,7 @@ export default function resumeView() {
 
   document.querySelector(".email-link").addEventListener("click", copyEmail);
 
-  document.querySelector(".modal-close").addEventListener("click", closeModal);
+  document.querySelector(".modal-content .btn").addEventListener("click", closeModal);
 
   document.querySelector(".modal-overlay").addEventListener("click", closeModal);
 

@@ -39,7 +39,7 @@ function renderProjects() {
 
             <a href="${project.link}" class="project-button" target="_blank" rel="noopener noreferrer" title="Ver ${project.title}">
               <span data-lang="viewProject">Ver Proyecto</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg class='icon' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>

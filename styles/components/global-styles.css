@@ -1,174 +1,269 @@
-@import url("../root.css");
+/* ==================================================
+UTILITY CLASSES - Clases utilitarias para uso general
+================================================== */
 
 .capitalize {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.btn {
+  align-items: center;
+  background: var(--theme-color, #3b82f6);
+  border-radius: .5rem;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  gap: .5rem;
+  padding: .3rem .7rem;
+  transition: all .1s ease;
+
+  &:hover {
+    outline: 2px solid var(--color-white);
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+}
+
+/* ==================================================
+LAYOUT COMPONENTS - Componentes de diseño y separación
+================================================== */
 
 .divider {
-    border: 2px solid var(--theme-color);
-    width: 100%;
+  border: 2px solid var(--theme-color);
+  width: 100%;
+  margin: var(--space-4) 0;
 }
 
-.card {
-    background-color: var(--color-white);
-    outline: 2px solid var(--color-dark);
-    padding: .5em 1em;
-    border-radius: 0.75em;
-    transition: all 0.3s ease;
+/* ==================================================
+CARD COMPONENT - Componente de tarjeta reusable
+================================================== */
 
-    @media print {
-        border: 2px solid var(--color-black);
-        padding: .5em;
-        box-shadow: none;
-        color: var(--color-black);
-        background-color: var(--color-white);
-    }
+.card {
+  background-color: var(--bg-primary);
+  color: var(--color-black);
+  outline: 2px solid var(--border-color-strong);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--transition-normal) var(--ease-in-out);
+  box-shadow: var(--shadow-sm);
 }
 
 .card:hover {
-    color: var(--color-white);
-    background-color: var(--theme-color);
-    transform: translateY(-2px);
+  color: var(--color-white);
+  background-color: var(--theme-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  outline-color: var(--theme-color);
 }
 
+@media print {
+  .card {
+    border: 2px solid var(--color-black);
+    padding: var(--space-2);
+    box-shadow: none;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    outline: none;
+  }
+}
+
+/* ==================================================
+NOTIFICATION COMPONENT - Componente de notificación temporal
+================================================== */
+
 .copy-notification {
-    background-color: var(--color-success);
-    color: var(--color-white);
-    position: absolute;
-    top: 100%;
-    margin-top: 0.25em;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 0.75em;
-    padding: 0.25em 0.5em;
-    white-space: nowrap;
-    font-size: 0.875em;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-    z-index: 10;
+  background-color: var(--color-success);
+  color: var(--color-white);
+  position: absolute;
+  top: 100%;
+  margin-top: var(--space-1);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-1) var(--space-2);
+  white-space: nowrap;
+  font-size: var(--text-sm);
+  opacity: 0;
+  transition: opacity var(--transition-normal) var(--ease-in-out);
+  pointer-events: none;
+  z-index: var(--z-index-tooltip);
+  box-shadow: var(--shadow);
 }
 
 .copy-notification.show {
-    opacity: 1;
+  opacity: 1;
 }
 
+/* ==================================================
+MODAL COMPONENT - Componente de modal overlay
+================================================== */
+
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-index-modal-backdrop);
+  padding: var(--space-4);
 
-    .modal-content {
-        background-color: var(--color-black);
-        border: 1px solid var(--theme-color);
-        border-radius: 0.75em;
-        padding: 2em;
-        max-width: 800px;
-        max-height: 90vh;
-        overflow-y: auto;
-        position: relative;
+  .modal-content {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--theme-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-8);
+    max-width: var(--size-4xl);
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: var(--shadow-xl);
 
-        .modal-close {
-            position: absolute;
-            top: 1em;
-            right: 1em;
-            background: #ef4444;
-            color: white;
-            border: none;
-            border-radius: 0.5em;
-            width: 2em;
-            height: 2em;
-            cursor: pointer;
-            font-size: 1.25em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 0.3s ease;
-        }
+    .btn {
+      background-color: var(--color-red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: var(--space-10);
+      width: var(--space-10);
+      position: absolute;
+      right: var(--space-4);
+      top: var(--space-4);
 
-        .modal-close:hover {
-            background-color: #dc2626;
-        }
-
-        .modal-header {
-            display: flex;
-            flex-direction: column;
-
-            h3 {
-                font-size: 2rem;
-                text-align: center;
-                text-wrap: balance;
-                font-weight: bold;
-
-                a {
-                    color: var(--color-white);
-                    text-decoration: underline;
-                    transition: color 0.3s ease;
-                }
-
-                a:hover {
-                    color: var(--theme-color);
-                }
-            }
-
-            h4 {
-                color: var(--color-light);
-                font-size: 1.5em;
-                text-align: center;
-                text-wrap: balance;
-                font-weight: bold;
-            }
-        }
-
-        .modal-divider {
-            border: 2px solid var(--theme-color);
-            margin-top: 1em;
-            margin-bottom: 1em;
-        }
-
-        .modal-details {
-            color: var(--color-white);
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-
-            p {
-                strong {
-                    background-color: var(--theme-color);
-                    color: var(--color-white);
-                    padding: 0.25em 0.5em;
-                    text-transform: uppercase;
-                    display: inline-block;
-                    width: fit-content;
-                    margin-right: .5em;
-                }
-            }
-
-            .tech-list {
-                display: flex;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 0.5em;
-                list-style: none;
-
-                li {
-                    background-color: var(--theme-color);
-                    padding: 0.25em 0.5em;
-                    border-radius: 0.25em;
-                }
-            }
-        }
+      &.btn:hover {
+        background-color: var(--color-red-light);
+      }
     }
+
+    .modal-header {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+
+      h3 {
+        font-size: var(--text-4xl);
+        text-align: center;
+        text-wrap: balance;
+        font-weight: var(--font-weight-bold);
+        color: var(--text-primary);
+        margin-bottom: var(--space-2);
+
+        a {
+          color: var(--theme-color);
+          text-decoration: underline;
+          transition: color var(--transition-normal) var(--ease-in-out);
+
+          &:hover {
+            color: var(--theme-color-light);
+          }
+        }
+      }
+
+      h4 {
+        color: var(--text-secondary);
+        font-size: var(--text-xl);
+        text-align: center;
+        text-wrap: balance;
+        font-weight: var(--font-weight-semibold);
+      }
+    }
+
+    .modal-divider {
+      border: 2px solid var(--theme-color);
+      margin-top: var(--space-4);
+      margin-bottom: var(--space-4);
+    }
+
+    .modal-details {
+      color: var(--text-primary);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+
+      p {
+        line-height: var(--leading-relaxed);
+
+        strong {
+          background-color: var(--theme-color);
+          color: var(--color-white);
+          padding: var(--space-1) var(--space-2);
+          text-transform: uppercase;
+          display: inline-block;
+          width: fit-content;
+          margin-right: var(--space-2);
+          border-radius: var(--border-radius-sm);
+          font-size: var(--text-sm);
+          font-weight: var(--font-weight-semibold);
+        }
+      }
+
+      .tech-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--space-2);
+        list-style: none;
+
+        li {
+          background-color: var(--theme-color);
+          padding: var(--space-1) var(--space-2);
+          border-radius: var(--border-radius);
+          color: var(--color-white);
+          font-size: var(--text-sm);
+          font-weight: var(--font-weight-medium);
+        }
+      }
+    }
+  }
 }
 
 .modal-overlay.active {
-    display: flex;
+  display: flex;
+}
+
+/* ==================================================
+RESPONSIVE DESIGN - Ajustes para diferentes tamaños de pantalla
+================================================== */
+
+@media (max-width: 768px) {
+  .modal-overlay {
+    padding: var(--space-2);
+
+    .modal-content {
+      padding: var(--space-6);
+      max-width: 95vw;
+
+      .modal-header h3 {
+        font-size: var(--text-2xl);
+      }
+
+      .modal-header h4 {
+        font-size: var(--text-lg);
+      }
+    }
+  }
+
+  .card {
+    padding: var(--space-2) var(--space-3);
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-overlay .modal-content {
+    padding: var(--space-4);
+  }
 }
